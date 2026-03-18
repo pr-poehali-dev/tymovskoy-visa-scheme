@@ -7,6 +7,7 @@ export default {
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
 		"./src/**/*.{ts,tsx}",
+			"./1773830970696823960.html"
 	],
 	prefix: "",
 	theme: {
@@ -17,8 +18,22 @@ export default {
 				'2xl': '1400px'
 			}
 		},
+		fontFamily: {
+			oswald: ['Oswald', 'sans-serif'],
+			roboto: ['Roboto', 'sans-serif'],
+		},
 		extend: {
 			colors: {
+				mo: {
+					green: '#2D4A1E',
+					'green-dark': '#1A2E10',
+					'green-mid': '#3D6229',
+					gold: '#C9A84C',
+					'gold-light': '#E8C96A',
+					'gold-dark': '#8B6914',
+					red: '#8B1A1A',
+					cream: '#F5EDD0',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
